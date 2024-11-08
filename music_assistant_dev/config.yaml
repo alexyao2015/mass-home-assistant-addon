@@ -1,4 +1,4 @@
-name: Music Assistant Server (dev)
+name: Music Assistant Server (dev) Fork
 # version number gets updated only when the mass base image updates!
 version: 1.1.2
 slug: music_assistant_dev
@@ -25,9 +25,9 @@ advanced: false
 stage: experimental
 tmpfs: true
 backup_exclude:
-- cache.db
-- collage_images/*
-- .cache/*
+  - cache.db
+  - collage_images/*
+  - .cache/*
 options:
   log_level: info
   branch: dev
