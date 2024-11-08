@@ -1,4 +1,4 @@
-name: Music Assistant Server (dev/nightly)
+name: Music Assistant Server (dev/nightly) Fork
 # version number gets updated only when the mass base image updates!
 version: 1.2.3
 slug: music_assistant_dev
